@@ -10,10 +10,10 @@ export default function MainHome() {
 
     <HomeSearch/>
         <div className='flex items-center justify-center  space-x-7'>
-    <button className='bg-gray-200 py-2 px-4 rounded-sm'>
+    <button className='bg-gray-100 py-2 px-4 rounded-sm'>
         Google Search
     </button>
-    <button className='bg-gray-200 py-2 px-4 rounded-sm'>
+    <button className='bg-gray-100 py-2 px-4 rounded-sm'>
         Im freeing lucky
     </button>
         </div>
