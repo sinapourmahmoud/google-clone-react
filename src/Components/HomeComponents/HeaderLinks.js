@@ -2,7 +2,7 @@ import React from 'react'
 import { PropTypes } from 'prop-types'
  function HeaderLinks({name}) {
   return (
-    <a href='#' className='text-[15px] font-[500]'>{name}</a>
+    <a href='#' className='text-[15px] font-[500] text-gray-700'>{name}</a>
 
   )
 }

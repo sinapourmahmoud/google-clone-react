@@ -1,9 +1,10 @@
 import React from 'react'
 import HeaderLinks from './HeaderLinks'
-
+import AppsIcon from '@mui/icons-material/Apps';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 export default function HomeHeader() {
   return (
-    <div className=' bg-red-500 flex items-center justify-between h-[10vh]'>
+    <div className='  flex items-center justify-between h-[10vh]'>
         <div className='flex items-center space-x-5'>
             <HeaderLinks  name='About' />
             <HeaderLinks name="Store" />
@@ -11,8 +12,8 @@ export default function HomeHeader() {
         <div className='flex items-center space-x-5'>
         <HeaderLinks name="Gmail" />
         <HeaderLinks name="Images" />
-        <HeaderLinks name="" />
-        <HeaderLinks name="" />
+    <AppsIcon style={{'cursor':'pointer'}} />
+    <AccountCircleIcon style={{'cursor':'pointer'}} />
        
 
 
